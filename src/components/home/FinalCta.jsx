@@ -112,7 +112,7 @@ export default function FinalCta() {
     <section id="start" className="scroll-mt-32 mx-auto max-w-6xl px-4 sm:px-10 lg:px-16 py-16 md:py-24">
       <motion.div
         {...fade}
-        className="relative overflow-hidden rounded-[2rem] min-h-[460px] bg-gradient-to-br from-[#EEF0FE] via-[#E4E8FD] to-[#D9F5F1]">
+        className="relative overflow-hidden rounded-[2rem] min-h-[28.75rem] bg-gradient-to-br from-[#EEF0FE] via-[#E4E8FD] to-[#D9F5F1]">
 
         {/* Background line art */}
         <svg className="absolute inset-0 w-full h-full text-white/40 pointer-events-none" fill="none" aria-hidden="true">
@@ -140,13 +140,13 @@ export default function FinalCta() {
             <div className="mt-6 flex flex-row flex-wrap justify-center gap-3">
               <a
                 href="#shots"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#14151A] px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-white hover:bg-[#2B2D33] transition-colors">
+                className="inline-flex items-center justify-center whitespace-nowrap gap-2 rounded-full bg-[#14151A] px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-white hover:bg-[#2B2D33] transition-colors">
                 Download App
                 <ArrowRight className="hidden sm:block w-4 h-4" />
               </a>
               <a
                 href="#shots"
-                className="inline-flex items-center justify-center rounded-full border border-[#14151A]/20 bg-white/40 px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-[#14151A] hover:bg-white/70 transition-colors">
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-[#14151A]/20 bg-white/40 px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-[#14151A] hover:bg-white/70 transition-colors">
                 See how it works
               </a>
             </div>
@@ -154,8 +154,8 @@ export default function FinalCta() {
 
           {/* Right: floating app-themed cards */}
           <div className="relative mt-10 lg:mt-0">
-            <div className="relative mx-auto w-[288px] h-[225px] sm:w-[506px] sm:h-[396px] lg:w-[460px] lg:h-[360px]">
-              <div className="absolute top-0 left-0 w-[460px] h-[360px] origin-top-left scale-[0.626] sm:scale-110 lg:scale-100">
+            <div className="relative mx-auto w-[18rem] h-[14.0625rem] sm:w-[31.625rem] sm:h-[24.75rem] lg:w-[28.75rem] lg:h-[22.5rem]">
+              <div className="absolute top-0 left-0 w-[28.75rem] h-[22.5rem] origin-top-left scale-[0.626] sm:scale-110 lg:scale-100">
                 {/* Next shot — teal */}
                 <motion.div
                   {...floatMobile(0, 5)}

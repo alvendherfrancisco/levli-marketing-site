@@ -52,24 +52,24 @@ export default function Hero() {
         <div className="mt-8 flex flex-row flex-wrap justify-center items-center gap-3">
           <Link
             to="/#start"
-            className="rounded-full bg-[#14151A] px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-white hover:bg-[#2B2D33] transition-colors">
+            className="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-[#14151A] px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-white hover:bg-[#2B2D33] transition-colors">
             Download App
           </Link>
           <Link
             to="/#shots"
-            className="inline-flex items-center justify-center rounded-full border border-[#14151A]/15 px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-medium text-[#14151A] hover:text-[#2FB8A6] transition-colors">
+            className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-[#14151A]/15 px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-medium text-[#14151A] hover:text-[#2FB8A6] transition-colors">
             See how it works
           </Link>
         </div>
       </motion.div>
 
       <div className="relative mx-auto max-w-5xl px-6 pt-10 sm:pt-16 sm:pb-12 pb-8">
-        <div className="relative mx-auto w-[320px] h-[340px] sm:w-[560px] sm:h-[595px] md:w-[660px] md:h-[700px] lg:w-[55rem] lg:h-[47.5rem]">
-          <div className="absolute top-0 left-0 w-[660px] h-[700px] lg:h-[47.5rem] origin-top-left scale-[0.485] sm:scale-[0.848] md:scale-100 lg:w-[55rem]">
+        <div className="relative mx-auto w-[20rem] h-[21.25rem] sm:w-[35rem] sm:h-[37.1875rem] md:w-[41.25rem] md:h-[43.75rem] lg:w-[55rem] lg:h-[47.5rem]">
+          <div className="absolute top-0 left-0 w-[41.25rem] h-[43.75rem] lg:h-[47.5rem] origin-top-left scale-[0.485] sm:scale-[0.848] md:scale-100 lg:w-[55rem]">
             <motion.div
               {...fadeUp}
               transition={{ duration: 0.9, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-              className="absolute left-[180px] top-[30px] lg:left-[18.125rem] lg:top-[3.75rem] w-[300px]">
+              className="absolute left-[11.25rem] top-[1.875rem] lg:left-[18.125rem] lg:top-[3.75rem] w-[18.75rem]">
 
               <PhoneFrame>
                 <HeroScreen scrollRef={phoneScrollRef} />
@@ -80,7 +80,7 @@ export default function Hero() {
               src={LIFESTYLE_IMG}
               alt="A person enjoying a calm walk outdoors while tracking their GLP-1 journey"
               caption="Calm & in control"
-              className="left-0 top-[40px] w-36 h-44 sm:top-0 md:w-32 md:h-40 lg:w-[200px] lg:h-[250px] lg:top-[6rem]"
+              className="left-0 top-[2.5rem] w-36 h-44 sm:top-0 md:w-32 md:h-40 lg:w-[12.5rem] lg:h-[15.625rem] lg:top-[6rem]"
               delay={0.1} />
 
             <FeatureFloatCard
@@ -88,7 +88,7 @@ export default function Hero() {
               tint="bg-[#ECFDF5] text-[#16A34A]"
               title="Progress Insights"
               tagline="See beyond the scale"
-              className="left-0 bottom-[150px] w-40 sm:bottom-[-20px] md:w-36 md:bottom-[-10px] lg:w-[15rem] lg:bottom-[7rem]"
+              className="left-0 bottom-[9.375rem] w-40 sm:bottom-[-1.25rem] md:w-36 md:bottom-[-0.625rem] lg:w-[15rem] lg:bottom-[7rem]"
               delay={0.4}>
 
               <WeightChart className="w-full h-12" />
@@ -101,20 +101,20 @@ export default function Hero() {
               tint="bg-[#EEF0FE] text-[#4F6BF4]"
               title="Medication Levels"
               tagline="Estimates, not clinical"
-              className="right-0 top-[140px] w-40 md:w-36 lg:w-40 lg:top-[12.5rem]"
+              className="right-0 top-[8.75rem] w-40 md:w-36 lg:w-40 lg:top-[12.5rem]"
               delay={0.3}>
 
               <MedicationWave className="w-full h-12" showDot={false} />
             </FeatureFloatCard>
 
-            <CheckPillCard text="Track shots" className="right-[20px] bottom-[70px] lg:right-[8.625rem] lg:bottom-auto lg:top-[29rem]" delay={0.35} />
-            <CheckPillCard text="Log symptoms" className="right-[20px] bottom-[130px] lg:right-[8.625rem] lg:bottom-auto lg:top-[32.5rem]" delay={0.45} />
+            <CheckPillCard text="Track shots" className="right-[1.25rem] bottom-[4.375rem] lg:right-[8.625rem] lg:bottom-auto lg:top-[29rem]" delay={0.35} />
+            <CheckPillCard text="Log symptoms" className="right-[1.25rem] bottom-[8.125rem] lg:right-[8.625rem] lg:bottom-auto lg:top-[32.5rem]" delay={0.45} />
 
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1, y: [0, -6, 0] }}
               transition={{ opacity: { duration: 0.6, delay: 0.25 }, y: { duration: 6, repeat: Infinity, ease: 'easeInOut', delay: 0.25 } }}
-              className="absolute right-[6px] top-[340px] w-32 h-[160px] z-30 sm:top-[340px] sm:w-20 sm:h-44 md:top-[310px] lg:right-0 lg:top-[26rem] lg:w-[8rem] lg:h-[10rem] lg:z-10"
+              className="absolute right-[0.375rem] top-[21.25rem] w-32 h-[10rem] z-30 sm:top-[21.25rem] sm:w-20 sm:h-44 md:top-[19.375rem] lg:right-0 lg:top-[26rem] lg:w-[8rem] lg:h-[10rem] lg:z-10"
               aria-hidden="true">
               <img src={GLP1_PEN} alt="A GLP-1 injection pen, the type of medication Levli helps you track" className="w-full h-full object-cover rounded-xl" loading="lazy" />
             </motion.div>
@@ -127,6 +127,6 @@ export default function Hero() {
           Supports Mounjaro® · Wegovy® · Ozempic® · Zepbound® · Saxenda® · Rybelsus® · and more
         </p>
       </div>
-    </section>);
-
+    </section>
+  );
 }

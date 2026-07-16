@@ -72,6 +72,14 @@
   }
 
   html {
+    /* Levli responsive standard: root font-size = 16px (1rem = 16px).
+       All sizing uses rem (font-size, padding, margin, width, height, gap,
+       border-radius, and absolute positioning offsets). px is reserved only
+       for 1px hairline borders, box-shadow blur/spread, and icon strokes.
+       Breakpoints are mobile-first min-width (Tailwind sm 30rem / md 48rem /
+       lg 64rem / xl 80rem). Tailwind's rem-based spacing & type scales are the
+       canonical sizing scale (0.25rem steps); reuse those tokens everywhere. */
+    font-size: 100%;
     scroll-behavior: smooth;
   }
 

@@ -34,7 +34,7 @@ export default function LevliFooter() {
           <motion.nav
             {...fade}
             transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            className="grid grid-cols-2 gap-x-6 gap-y-3 sm:flex sm:flex-wrap sm:gap-x-8" aria-label="Footer">
+            className="grid grid-cols-2 gap-x-6 gap-y-3 md:flex md:flex-wrap md:gap-x-8" aria-label="Footer">
             {links.map((l) => (
               <Link key={l.label} to={l.to} className="text-sm text-[#6B7280] hover:text-[#14151A] transition-colors">
                 {l.label}

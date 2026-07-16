@@ -22,7 +22,7 @@ export default function HeroScreen({ scrollRef }) {
     <>
       <div className="relative flex-1 flex flex-col overflow-hidden">
         <div ref={scrollRef} className="flex-1 overflow-y-auto no-scrollbar px-4 pt-2 pb-8">
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 lg:scale-[1.30] lg:origin-top lg:w-[76.92%] lg:mx-auto shrink-0">
             <div className="flex items-center justify-between">
               <p className="text-lg font-bold text-[#111827]">Good Afternoon!</p>
               <Settings className="w-5 h-5 text-[#6B7280]" strokeWidth={1.8} />

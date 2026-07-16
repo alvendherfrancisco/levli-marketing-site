@@ -49,7 +49,7 @@ export default function ReportScreen() {
       </div>
 
       <div className="flex-1 overflow-y-auto no-scrollbar px-4 pt-1 pb-3">
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 lg:scale-[1.30] lg:origin-top lg:w-[76.92%] lg:mx-auto shrink-0">
           <div className="rounded-2xl bg-white border border-[#E5E7EB] p-3 shadow-sm flex items-stretch gap-2.5">
             <div className="w-1 rounded-full bg-[#2563EB]" />
             <div>

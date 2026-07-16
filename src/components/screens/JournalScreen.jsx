@@ -12,7 +12,8 @@ const entries = [
 export default function JournalScreen() {
   return (
     <>
-      <div className="relative flex-1 flex flex-col gap-3 px-4 pt-2 overflow-hidden">
+      <div className="relative flex-1 flex flex-col gap-3 px-4 pt-2 overflow-hidden lg:overflow-y-auto no-scrollbar">
+        <div className="flex flex-col gap-3 lg:scale-[1.30] lg:origin-top lg:w-[76.92%] lg:mx-auto shrink-0">
         <div className="flex items-center justify-between">
           <p className="text-lg font-bold text-[#111827]">Journal</p>
           <div className="flex items-center gap-2 text-[#6B7280]">
@@ -54,6 +55,7 @@ export default function JournalScreen() {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
       <BottomTabBar active="Journal" />

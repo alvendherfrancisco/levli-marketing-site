@@ -14,7 +14,8 @@ const shotDays = [6, 13, 20, 27];
 export default function HistoryScreen() {
   return (
     <>
-      <div className="relative flex-1 flex flex-col gap-3 px-4 pt-2 overflow-hidden">
+      <div className="relative flex-1 flex flex-col gap-3 px-4 pt-2 overflow-hidden lg:overflow-y-auto no-scrollbar">
+        <div className="flex flex-col gap-3 lg:scale-[1.30] lg:origin-top lg:w-[76.92%] lg:mx-auto shrink-0">
         <div className="flex items-center justify-between">
           <p className="text-lg font-bold text-[#111827]">History</p>
           <Settings className="w-5 h-5 text-[#6B7280]" strokeWidth={1.8} />
@@ -63,6 +64,7 @@ export default function HistoryScreen() {
 
         <div className="absolute bottom-3 right-3 rounded-full bg-[#2563EB] px-4 py-2.5 shadow-lg flex items-center gap-1.5 text-white text-xs font-semibold hidden">
           <Plus className="w-4 h-4" strokeWidth={2.5} /> Add Shot
+        </div>
         </div>
       </div>
       <BottomTabBar active="History" />

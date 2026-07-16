@@ -39,7 +39,7 @@ function Card({ title, children }) {
 
 export default function ReportScreen() {
   return (
-    <div className="flex-1 flex flex-col overflow-hidden">
+    <div className="flex-1 flex flex-col overflow-hidden lg:scale-[1.10] origin-top">
       <div className="flex-none grid grid-cols-3 items-center px-4 pt-2 pb-2">
         <button className="flex items-center gap-0.5 text-[#2563EB] text-xs font-medium justify-self-start">
           <ChevronLeft className="w-4 h-4" strokeWidth={2} /> Back
@@ -48,7 +48,7 @@ export default function ReportScreen() {
         <Download className="w-4 h-4 text-[#2563EB] justify-self-end" strokeWidth={1.8} />
       </div>
 
-      <div className="flex-1 overflow-y-auto no-scrollbar px-4 lg:px-11 pt-1 pb-3 lg:scale-[1.40] origin-top">
+      <div className="flex-1 overflow-y-auto no-scrollbar px-4 pt-1 pb-3">
         <div className="flex flex-col gap-3">
           <div className="rounded-2xl bg-white border border-[#E5E7EB] p-3 shadow-sm flex items-stretch gap-2.5">
             <div className="w-1 rounded-full bg-[#2563EB]" />

@@ -19,7 +19,7 @@ const people = [
 {
   name: 'Priya',
   role: 'Ozempic user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/e28eb6b08_cesar-abner-martinez-aguilar-MXnBNbOe64A-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
   quote: 'Walking into my appointment with a clear report changed the conversation. I feel in control of my journey.'
 },
 {
@@ -70,12 +70,12 @@ export default function Testimonials() {
     if (row && item) {
       row.scrollLeft = item.offsetLeft - row.clientWidth / 2 + item.offsetWidth / 2;
     }
-    window.setTimeout(() => { suppressScroll.current = false; }, 350);
+    window.setTimeout(() => {suppressScroll.current = false;}, 350);
   };
-  const select = (i) => { setActive(i); centerItem(i); };
+  const select = (i) => {setActive(i);centerItem(i);};
   const next = () => select((active + 1) % people.length);
 
-  useEffect(() => { centerItem(active); }, []);
+  useEffect(() => {centerItem(active);}, []);
 
   const handleScroll = (e) => {
     if (suppressScroll.current) return;
@@ -87,9 +87,9 @@ export default function Testimonials() {
       if (!r) return;
       const mid = r.offsetLeft + r.offsetWidth / 2;
       const d = Math.abs(mid - center);
-      if (d < min) { min = d; nearest = i; }
+      if (d < min) {min = d;nearest = i;}
     });
-    setActive((prev) => (prev === nearest ? prev : nearest));
+    setActive((prev) => prev === nearest ? prev : nearest);
   };
 
   return (
@@ -123,7 +123,7 @@ export default function Testimonials() {
             return (
               <button
                 key={p.name}
-                ref={(el) => (itemRefs.current[i] = el)}
+                ref={(el) => itemRefs.current[i] = el}
                 onClick={() => select(i)}
                 aria-label={`Show review from ${p.name}`}
                 className={`relative flex-none snap-center rounded-2xl focus-visible:outline-none ${isActive ? 'z-20' : ''} ${arc[i].cls}`}>

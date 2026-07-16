@@ -39,7 +39,7 @@ function Card({ title, children }) {
 
 export default function ReportScreen() {
   return (
-    <div className="flex-1 flex flex-col overflow-hidden lg:scale-[1.10] origin-top">
+    <div className="flex-1 flex flex-col overflow-hidden">
       <div className="flex-none grid grid-cols-3 items-center px-4 pt-2 pb-2">
         <button className="flex items-center gap-0.5 text-[#2563EB] text-xs font-medium justify-self-start">
           <ChevronLeft className="w-4 h-4" strokeWidth={2} /> Back

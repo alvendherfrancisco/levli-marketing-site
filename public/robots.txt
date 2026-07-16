@@ -1,3 +1,6 @@
+# robots.txt — Levli
+# Levli is a personal GLP-1 tracking companion app. Public marketing pages are crawlable.
+
 User-agent: *
 Allow: /
 

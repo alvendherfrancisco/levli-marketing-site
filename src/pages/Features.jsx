@@ -45,6 +45,7 @@ export default function Features() {
       <Seo
         title="Levli Features — GLP-1 Shot Tracker, Medication Levels & Progress Insights"
         description="Explore Levli's features: injection tracking, medication level estimates, weight logging, symptom journal and PDF reports — all built for GLP-1 users."
+        canonicalPath="/features"
       />
       <section className="mx-auto max-w-7xl px-6 pt-20 md:pt-28 pb-10 bg-[#F7F7F8]">
         <motion.h1 {...fade} className="max-w-3xl text-4xl md:text-5xl font-extrabold text-[#14151A]">

@@ -1,0 +1,31 @@
+# Levli
+
+> Levli is a personal GLP-1 tracking and journaling companion app for people already prescribed GLP-1 medications such as Ozempic, Wegovy, Mounjaro, Zepbound, Saxenda and Rybelsus. It helps users log injections, track injection-site rotation, monitor estimated medication levels (illustrative estimates only — not clinical measurements), record weight and nutrition, journal symptoms and side effects, and export a PDF shot-history report for their healthcare provider.
+
+# What Levli is
+
+Levli is a private tracking companion. It helps a person on a GLP-1 medication keep their shots, symptoms, weight and progress in one calm place, and see patterns over time.
+
+# What Levli is NOT
+
+Levli is not a medical service. It does not prescribe medication, recommend doses, diagnose conditions, or provide medical advice. It does not replace a doctor, pharmacist, or any healthcare provider. Medication level estimates shown in the app are illustrative only and are not clinical measurements. Users should always consult a qualified healthcare provider with any questions about their medication, dose, or health.
+
+# Who Levli is for
+
+People already prescribed a GLP-1 medication who want a dedicated tool — rather than a generic health app — to track injections, side effects, weight and progress, and to prepare for more informed conversations with their provider.
+
+# Key pages
+
+- [Home](https://levli.app/): Overview of Levli as a GLP-1 tracking companion, including how it works and what it tracks.
+- [Features](https://levli.app/features): Shot tracking and reminders, medication level estimates, weight and nutrition logging, symptom and side effect journal, and PDF reports for providers.
+- [FAQ](https://levli.app/#faq): Answers about whether Levli is a medical service, which GLP-1 medications are supported, privacy, and how Levli differs from a general health app.
+- [Privacy Policy](https://levli.app/privacy): What data Levli collects, how it is stored, and the user's control over it. Levli never sells user data.
+- [Terms of Use](https://levli.app/terms): Terms of use, including the medical disclaimer that Levli is not a medical service and does not provide medical advice.
+
+# Important disclaimer
+
+Levli is not a medical service. Always consult your healthcare provider.
+
+# Contact
+
+hello@levli.app

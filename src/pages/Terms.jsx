@@ -14,7 +14,11 @@ const sections = [
 export default function Terms() {
   return (
     <>
-      <Seo title="Terms of Use — Levli" description="Levli Terms of Use, including the medical disclaimer. Levli is not a medical service and does not provide medical advice." />
+      <Seo
+        title="Terms of Use — Levli"
+        description="Levli Terms of Use, including the medical disclaimer. Levli is not a medical service and does not provide medical advice."
+        canonicalPath="/terms"
+      />
       <article className="mx-auto max-w-3xl px-6 py-20 md:py-28 min-h-screen">
         <p className="text-sm text-[#9CA3AF]">Last updated: July 2026</p>
         <h1 className="mt-3 text-4xl md:text-5xl font-extrabold text-[#14151A]">Terms of Use</h1>

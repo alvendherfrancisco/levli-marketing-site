@@ -78,7 +78,7 @@ export default function Hero() {
 
             <FloatImageCard
               src={LIFESTYLE_IMG}
-              alt="A runner feeling at ease"
+              alt="A person enjoying a calm walk outdoors while tracking their GLP-1 journey"
               caption="Calm & in control"
               className="left-0 top-[40px] w-36 h-44 sm:top-0 md:w-32 md:h-40 lg:w-[200px] lg:h-[250px] lg:top-[6rem]"
               delay={0.1} />
@@ -116,7 +116,7 @@ export default function Hero() {
               transition={{ opacity: { duration: 0.6, delay: 0.25 }, y: { duration: 6, repeat: Infinity, ease: 'easeInOut', delay: 0.25 } }}
               className="absolute right-[6px] top-[340px] w-32 h-[160px] z-30 sm:top-[340px] sm:w-20 sm:h-44 md:top-[310px] lg:right-0 lg:top-[26rem] lg:w-[8rem] lg:h-[10rem] lg:z-10"
               aria-hidden="true">
-              <img src={GLP1_PEN} alt="" className="w-full h-full object-cover rounded-xl" loading="lazy" />
+              <img src={GLP1_PEN} alt="A GLP-1 injection pen, the type of medication Levli helps you track" className="w-full h-full object-cover rounded-xl" loading="lazy" />
             </motion.div>
           </div>
         </div>

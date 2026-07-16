@@ -12,7 +12,11 @@ const sections = [
 export default function Privacy() {
   return (
     <>
-      <Seo title="Privacy Policy — Levli" description="How Levli collects, stores and protects your private GLP-1 tracking data. We never sell your data." />
+      <Seo
+        title="Privacy Policy — Levli"
+        description="How Levli collects, stores and protects your private GLP-1 tracking data. We never sell your data."
+        canonicalPath="/privacy"
+      />
       <article className="mx-auto max-w-3xl px-6 py-20 md:py-28 min-h-screen">
         <p className="text-sm text-[#9CA3AF]">Last updated: July 2026</p>
         <h1 className="mt-3 text-4xl md:text-5xl font-extrabold text-[#14151A]">Privacy Policy</h1>

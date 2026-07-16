@@ -11,7 +11,7 @@ const items = [
 
 export default function BottomTabBar({ active }) {
   return (
-    <div className="relative z-10 flex-none border-t border-[#E5E7EB] bg-white px-2 pt-1.5 pb-2">
+    <div className="flex-none border-t border-[#E5E7EB] bg-white px-2 pt-1.5 pb-2">
       <div className="flex items-center justify-around">
         {items.map((it) => {
           const on = it.label === active;

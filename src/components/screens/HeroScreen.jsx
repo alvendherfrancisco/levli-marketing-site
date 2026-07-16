@@ -20,7 +20,7 @@ const metrics = [
 export default function HeroScreen({ scrollRef }) {
   return (
     <>
-      <div className="relative flex-1 flex flex-col overflow-hidden">
+      <div className="relative flex-1 flex flex-col overflow-hidden lg:scale-[1.30] lg:origin-top">
         <div ref={scrollRef} className="flex-1 overflow-y-auto no-scrollbar px-4 pt-2 pb-8">
           <div className="flex flex-col gap-3">
             <div className="flex items-center justify-between">

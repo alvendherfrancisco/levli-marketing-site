@@ -40,7 +40,8 @@ function Card({ title, children }) {
 export default function ReportScreen() {
   return (
     <div className="flex-1 flex flex-col overflow-hidden">
-      <div className="flex-none grid grid-cols-3 items-center px-4 pt-2 pb-2">
+      <div className="relative flex-1 flex flex-col overflow-hidden lg:scale-[1.30] lg:origin-top">
+        <div className="flex-none grid grid-cols-3 items-center px-4 pt-2 pb-2">
         <button className="flex items-center gap-0.5 text-[#2563EB] text-xs font-medium justify-self-start">
           <ChevronLeft className="w-4 h-4" strokeWidth={2} /> Back
         </button>
@@ -102,8 +103,9 @@ export default function ReportScreen() {
           </Card>
         </div>
       </div>
+      </div>
 
-      <div className="flex-none pb-2 pt-1.5 flex justify-center">
+      <div className="relative z-10 flex-none pb-2 pt-1.5 flex justify-center">
         <div className="h-1 w-28 rounded-full bg-black/25" />
       </div>
     </div>

@@ -187,8 +187,8 @@ export default function AppCarousel() {
               animate={{ y: [0, -6, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}>
 
-              <div className="w-[8.25rem] h-[17.6rem] sm:w-[18.75rem] sm:h-[40rem] lg:w-[13.125rem] lg:h-[28rem]">
-                <div className="origin-top-left scale-[0.44] sm:scale-100 lg:scale-[0.7] w-[18.75rem] h-[40rem]">
+              <div className="w-[8.25rem] h-[17.6rem] sm:w-[18.75rem] sm:h-[40rem] lg:w-[15rem] lg:h-[32rem]">
+                <div className="origin-top-left scale-[0.44] sm:scale-100 lg:scale-[0.8] w-[18.75rem] h-[40rem]">
                   <PhoneFrame>
                     <motion.div
                       key={active.id}

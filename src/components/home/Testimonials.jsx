@@ -6,7 +6,7 @@ const people = [
 {
   name: 'Sarah',
   role: 'Wegovy user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/8ec9ec017_dev-benjamin-EONtzHMsJDU-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/77ee2d9c5_Gemini_Generated_Image_7fnxmd7fnxmd7fnx.png",
   quote: 'Levli helped me see the whole picture — my shots, how I feel, and my progress. The journey finally feels manageable.'
 },
 {

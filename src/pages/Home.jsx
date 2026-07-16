@@ -13,7 +13,7 @@ const appSchema = {
   applicationCategory: 'HealthApplication',
   operatingSystem: 'iOS, Android',
   description:
-    'Levli is a personal GLP-1 tracking companion app for logging injections, medication levels, weight, nutrition and side effects, and generating PDF reports for healthcare providers. Levli is not a medical service and does not prescribe medication or provide medical advice.',
+    'Levli is the private GLP-1 companion that brings your medication, symptoms and progress together. It helps you log injections and injection-site rotation, track estimated medication levels (illustrative estimates, not clinical measurements), record weight trends and side effects, and export a PDF shot-history report. Levli is not a medical service and does not prescribe medication or provide medical advice.',
   url: 'https://levli.app/',
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
 };
@@ -22,8 +22,8 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Levli — GLP-1 Tracker App | Track Shots, Weight & Medication Levels"
-        description="Track your GLP-1 injections, medication levels, weight and side effects in one private app. Built for Ozempic, Wegovy, Mounjaro and Zepbound users. Understand your journey with Levli."
+        title="Levli — GLP-1 Tracker & Companion App | Understand Your GLP-1 Journey"
+        description="The private GLP-1 companion for your medication, symptoms and progress — track injections, side effects and weight trends across Mounjaro, Wegovy, Ozempic and Zepbound."
         canonicalPath="/"
         schema={appSchema}
       />

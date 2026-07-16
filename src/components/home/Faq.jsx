@@ -12,7 +12,10 @@ const faqs = [
 { q: 'Is my data private?', a: 'Yes. Your data is stored securely, tied to your account only. We never sell your data to third parties.' },
 { q: 'Is Levli free to use?', a: 'Levli is free to get started. Additional features may be available in future.' },
 { q: 'What is a GLP-1 medication?', a: 'GLP-1 receptor agonists are a class of medications that help regulate blood sugar and appetite. Common brands include Ozempic, Wegovy, Mounjaro and Zepbound. Levli helps you track and understand your journey with these medications.' },
-{ q: 'How is Levli different from a general health app?', a: 'Levli is built specifically for GLP-1 users. It combines injection tracking, medication level estimates, symptom logging and weight trends in one place — designed around the real experience of being on a GLP-1, not just counting calories.' }];
+{ q: 'How is Levli different from a general health or weight-loss app?', a: 'Levli is not a generic weight-loss app, calorie counter or medication reminder. It sits between clinical medication management and traditional weight-loss tracking — helping you understand the whole journey: how your medication, symptoms, weight and habits relate. It is more focused than an all-purpose health app and more private than a forum.' },
+{ q: 'Does Levli track injection-site rotation?', a: 'Yes. Levli lets you record each injection and its site, so you can rotate injection sites and avoid overusing one area — a common practical concern for people on Mounjaro, Ozempic, Wegovy and Zepbound.' },
+{ q: 'Can Levli help me understand weight trends and plateaus?', a: 'Yes. Levli shows weight trends and meaningful progress over time rather than focusing on daily fluctuations, and can display estimated medication levels — clearly described as estimates, not clinical measurements — so you can see patterns and plateaus in context.' },
+{ q: 'What can I track in Levli?', a: 'You can log injections and injection sites, medication records and dose history, side effects and symptoms, weight trends, nutrition and habits, and export a PDF shot-history report to bring to your healthcare provider.' }];
 
 
 const schema = {

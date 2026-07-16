@@ -1,30 +1,74 @@
 # Levli
 
-> Levli is a personal GLP-1 tracking and journaling companion app for people already prescribed GLP-1 medications such as Ozempic, Wegovy, Mounjaro, Zepbound, Saxenda and Rybelsus. It helps users log injections, track injection-site rotation, monitor estimated medication levels (illustrative estimates only — not clinical measurements), record weight and nutrition, journal symptoms and side effects, and export a PDF shot-history report for their healthcare provider.
+> Levli is the private GLP-1 companion that brings your medication, symptoms and progress together, so you can understand your journey without it taking over your life. It is built for people taking — or preparing to take — GLP-1 medications such as Mounjaro, Wegovy, Ozempic, Zepbound, Saxenda and Rybelsus.
 
 # What Levli is
 
-Levli is a private tracking companion. It helps a person on a GLP-1 medication keep their shots, symptoms, weight and progress in one calm place, and see patterns over time.
+Levli is a private GLP-1 tracking and progress companion. It brings doses, medication history, weight, symptoms, habits and progress into one calm place, and helps a person see how their medication, symptoms, weight and habits relate over time. Where medication-level estimates are shown, they are clearly described as illustrative estimates, not clinical measurements.
 
 # What Levli is NOT
 
-Levli is not a medical service. It does not prescribe medication, recommend doses, diagnose conditions, or provide medical advice. It does not replace a doctor, pharmacist, or any healthcare provider. Medication level estimates shown in the app are illustrative only and are not clinical measurements. Users should always consult a qualified healthcare provider with any questions about their medication, dose, or health.
+Levli is not a medical service, a pharmacy or a prescriber. It does not prescribe medication, recommend a personalised dose, diagnose conditions or tell users to change their treatment. It does not replace a doctor, pharmacist or any healthcare provider. It is also not a generic weight-loss app, a calorie counter or a basic medication reminder. Medication level estimates shown in the app are illustrative only and are not clinical measurements. Users should always consult a qualified healthcare provider with any questions about their medication, dose or health.
 
 # Who Levli is for
 
-People already prescribed a GLP-1 medication who want a dedicated tool — rather than a generic health app — to track injections, side effects, weight and progress, and to prepare for more informed conversations with their provider.
+People already prescribed — or preparing to take — a GLP-1 medication who want a dedicated tool to understand their journey rather than a generic health app. They are often managing the journey largely by themselves and want control without obsession and support without judgement.
+
+Three audience mindsets Levli serves:
+
+- Goal-driven: wants accurate data, visible progress and clear goals.
+- Zen seeker: wants simplicity, reassurance and less mental noise.
+- Pathfinder: is new or uncertain and wants clear explanations, trustworthy information and social proof.
+
+# Product value pillars
+
+1. See the complete picture: doses, medication history, weight, symptoms, habits and progress in one experience.
+2. Understand patterns: relationships between logged medication, side effects, appetite, weight and progress over time. Medication-level estimates are clearly described as estimates, not clinical measurements.
+3. Stay organised: injection reminders, medication records, injection-site rotation, symptom logging and an accessible history.
+4. Recognise progress: trends and meaningful progress rather than overemphasising daily weight fluctuations.
+5. Feel privately supported: calm, non-judgemental language. Levli recognises the stigma and information overload around GLP-1s without becoming a social network or making weight loss a competition.
+
+# How Levli differs
+
+Most competitors position around tracking shots, calculating doses or losing weight. Levli positions around understanding the whole journey. It is more human and reassuring than a clinical medication log, more focused than an all-purpose health or calorie app, more private and dependable than a forum, less obsessive and diet-led than traditional weight-loss products, and broader than a basic injection reminder — without trying to replace a clinician.
+
+# SEO territory
+
+Levli's central SEO territory is GLP-1 tracking and journey management. Levli content covers:
+
+- GLP-1 tracker app and GLP-1 companion searches.
+- Mounjaro, Wegovy, Ozempic and Zepbound tracker searches.
+- Injection reminders and injection-site rotation.
+- Side-effect and symptom tracking.
+- Dose history and medication schedule explainers.
+- Weight trends, progress tracking and plateaus.
+- Medication-specific educational guides.
+- Relevant calculators (protein, calorie, BMI, BMR, TDEE) where useful to GLP-1 users.
+- Comparisons such as best GLP-1 apps and free versus paid GLP-1 trackers.
+
+Content answers the practical questions people search before and during treatment, and leads naturally back to Levli as the tool that helps them record and understand their own journey.
+
+# Brand tone
+
+Calm, clear, supportive, discreet and evidence-conscious. Levli avoids exaggerated transformation claims, shame, fear, clinical coldness, "miracle drug" language, aggressive diet culture and unrealistic before-and-after messaging.
+
+# Messaging
+
+- Primary headline: Understand your GLP-1 journey.
+- Brand promise: Understand your GLP-1 journey. Stay in control of your progress.
+- Supporting phrases: Your GLP-1 journey, made clearer. / More clarity. Less mental noise. / See your progress beyond the scale. / Everything about your journey in one place. / Track privately. Progress confidently.
 
 # Key pages
 
-- [Home](https://levli.app/): Overview of Levli as a GLP-1 tracking companion, including how it works and what it tracks.
-- [Features](https://levli.app/features): Shot tracking and reminders, medication level estimates, weight and nutrition logging, symptom and side effect journal, and PDF reports for providers.
-- [FAQ](https://levli.app/#faq): Answers about whether Levli is a medical service, which GLP-1 medications are supported, privacy, and how Levli differs from a general health app.
+- [Home](https://levli.app/): Levli as the private GLP-1 companion — how it works and what it tracks.
+- [Features](https://levli.app/features): Shot tracking and reminders, medication level estimates, weight and nutrition logging, symptom and side effect journal, injection-site rotation, and PDF reports for providers.
+- [FAQ](https://levli.app/#faq): Whether Levli is a medical service, which GLP-1 medications are supported, injection-site rotation, weight trends and plateaus, privacy, and how Levli differs from a general health or weight-loss app.
 - [Privacy Policy](https://levli.app/privacy): What data Levli collects, how it is stored, and the user's control over it. Levli never sells user data.
 - [Terms of Use](https://levli.app/terms): Terms of use, including the medical disclaimer that Levli is not a medical service and does not provide medical advice.
 
 # Important disclaimer
 
-Levli is not a medical service. Always consult your healthcare provider.
+Levli is not a medical service. Always consult your healthcare provider. Medication level estimates are illustrative only and are not clinical measurements.
 
 # Contact
 

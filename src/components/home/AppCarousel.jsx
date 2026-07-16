@@ -171,7 +171,7 @@ export default function AppCarousel() {
         </AnimatePresence>
 
         <div className="lg:col-span-8 relative">
-          <div className="flex items-center justify-center gap-4 sm:gap-6">
+          <div className="flex items-center justify-center gap-3 sm:gap-6">
           <AnimatePresence mode="wait" custom={direction}>
           <motion.div
             key={active.id + '-phone'}
@@ -187,8 +187,8 @@ export default function AppCarousel() {
               animate={{ y: [0, -6, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}>
 
-              <div className="w-[9.125rem] h-[19.375rem] sm:w-[18.75rem] sm:h-[40rem]">
-                <div className="origin-top-left scale-[0.485] sm:scale-100 w-[18.75rem] h-[40rem]">
+              <div className="w-[8.25rem] h-[17.6rem] sm:w-[18.75rem] sm:h-[40rem]">
+                <div className="origin-top-left scale-[0.44] sm:scale-100 w-[18.75rem] h-[40rem]">
                   <PhoneFrame>
                     <motion.div
                       key={active.id}
@@ -218,7 +218,7 @@ export default function AppCarousel() {
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
-              className="w-[88px] sm:w-44 rounded-3xl card-soft p-3 sm:p-6 text-left">
+              className="w-20 sm:w-44 rounded-3xl card-soft p-3 sm:p-6 text-left">
 
               <div className="w-8 h-8 sm:w-12 sm:h-12 rounded-2xl bg-[#DBEAFE] flex items-center justify-center">
                 <active.Icon className="w-4 h-4 sm:w-6 sm:h-6 text-[#2563EB]" strokeWidth={1.6} />

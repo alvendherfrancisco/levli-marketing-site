@@ -154,8 +154,8 @@ export default function FinalCta() {
 
           {/* Right: floating app-themed cards */}
           <div className="relative mt-10 lg:mt-0">
-            <div className="relative mx-auto w-[18rem] h-[14.0625rem] sm:w-[31.625rem] sm:h-[24.75rem] lg:w-[28.75rem] lg:h-[22.5rem]">
-              <div className="absolute top-0 left-0 w-[28.75rem] h-[22.5rem] origin-top-left scale-[0.626] sm:scale-110 lg:scale-100">
+            <div className="relative mx-auto w-[15.8125rem] h-[12.375rem] sm:w-[31.625rem] sm:h-[24.75rem] lg:w-[28.75rem] lg:h-[22.5rem]">
+              <div className="absolute top-0 left-0 w-[28.75rem] h-[22.5rem] origin-top-left scale-[0.55] sm:scale-110 lg:scale-100">
                 {/* Next shot — teal */}
                 <motion.div
                   {...floatMobile(0, 5)}

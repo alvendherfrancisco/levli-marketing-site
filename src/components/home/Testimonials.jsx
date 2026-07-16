@@ -6,13 +6,13 @@ const people = [
 {
   name: 'Sarah',
   role: 'Wegovy user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/77ee2d9c5_Gemini_Generated_Image_7fnxmd7fnxmd7fnx.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
   quote: 'Levli helped me see the whole picture — my shots, how I feel, and my progress. The journey finally feels manageable.'
 },
 {
   name: 'Marcus',
   role: 'Mounjaro user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/a93f067fe_Gemini_Generated_Image_sb17qlsb17qlsb17.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/77ee2d9c5_Gemini_Generated_Image_7fnxmd7fnxmd7fnx.png",
   contain: true,
   quote: 'I stopped obsessing over the scale. Levli helps me understand what is happening and feel calmer about it.'
 },

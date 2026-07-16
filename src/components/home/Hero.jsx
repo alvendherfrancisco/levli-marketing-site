@@ -88,7 +88,7 @@ export default function Hero() {
               tint="bg-[#ECFDF5] text-[#16A34A]"
               title="Progress Insights"
               tagline="See beyond the scale"
-              className="left-0 bottom-[200px] w-40 sm:bottom-[10px] md:w-36 md:bottom-[20px] lg:w-[15rem] lg:bottom-[10rem]"
+              className="left-0 bottom-[150px] w-40 sm:bottom-[-20px] md:w-36 md:bottom-[-10px] lg:w-[15rem] lg:bottom-[7rem]"
               delay={0.4}>
 
               <WeightChart className="w-full h-12" />

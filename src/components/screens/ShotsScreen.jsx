@@ -22,7 +22,7 @@ const shots = [
 export default function ShotsScreen() {
   return (
     <>
-      <div className="relative flex-1 flex flex-col gap-3 px-4 pt-2 overflow-hidden lg:scale-[1.10] origin-top">
+      <div className="relative flex-1 flex flex-col gap-3 px-4 lg:px-11 pt-2 overflow-hidden lg:scale-[1.40] origin-top">
         <div className="flex items-center justify-between">
           <p className="text-lg font-bold text-[#111827]">Shots</p>
           <div className="flex items-center gap-2 text-[#6B7280]">

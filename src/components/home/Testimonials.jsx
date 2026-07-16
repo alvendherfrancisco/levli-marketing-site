@@ -25,7 +25,7 @@ const people = [
 {
   name: 'Aisha',
   role: 'Zepbound user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/c7da302c8_Gemini_Generated_Image_k0lmjdk0lmjdk0lm.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/0f9e09b8a_5_gemini.png",
   quote: 'Tracking my symptoms next to my shots showed me patterns I never noticed. I feel so much more prepared.'
 },
 {

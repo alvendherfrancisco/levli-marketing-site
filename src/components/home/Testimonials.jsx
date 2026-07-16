@@ -25,13 +25,13 @@ const people = [
 {
   name: 'Daniel',
   role: 'Zepbound user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/c7da302c8_Gemini_Generated_Image_k0lmjdk0lmjdk0lm.png",
   quote: 'Tracking my symptoms next to my shots showed me patterns I never noticed. I feel so much more prepared.'
 },
 {
   name: 'Elena',
   role: 'Saxenda user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/c7da302c8_Gemini_Generated_Image_k0lmjdk0lmjdk0lm.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/d543eeb31_Gemini_Generated_Image_j2b14rj2b14rj2b1.png",
   quote: 'It is the first tool that feels built for me — calm, private, and genuinely helpful every single day.'
 }];
 

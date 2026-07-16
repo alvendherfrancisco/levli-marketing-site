@@ -23,7 +23,7 @@ const people = [
   quote: 'Walking into my appointment with a clear report changed the conversation. I feel in control of my journey.'
 },
 {
-  name: 'Daniel',
+  name: 'Aisha',
   role: 'Zepbound user',
   avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/eb51547fd_ilse-stokking-dFcHL1ds0eY-unsplash.jpg",
   quote: 'Tracking my symptoms next to my shots showed me patterns I never noticed. I feel so much more prepared.'

@@ -6,32 +6,32 @@ const people = [
 {
   name: 'Sarah',
   role: 'Wegovy user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/8ec9ec017_dev-benjamin-EONtzHMsJDU-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
   quote: 'Levli helped me see the whole picture — my shots, how I feel, and my progress. The journey finally feels manageable.'
 },
 {
-  name: 'Nadia',
+  name: 'Marcus',
   role: 'Mounjaro user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/103fb0344_maria-remez-k1-aCVxTZto-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/77ee2d9c5_Gemini_Generated_Image_7fnxmd7fnxmd7fnx.png",
   contain: true,
   quote: 'I stopped obsessing over the scale. Levli helps me understand what is happening and feel calmer about it.'
 },
 {
   name: 'Priya',
   role: 'Ozempic user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/e28eb6b08_cesar-abner-martinez-aguilar-MXnBNbOe64A-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/89c6f9856_Gemini_Generated_Image_npz4dfnpz4dfnpz4.png",
   quote: 'Walking into my appointment with a clear report changed the conversation. I feel in control of my journey.'
 },
 {
-  name: 'Aisha',
+  name: 'Daniel',
   role: 'Zepbound user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/eb51547fd_ilse-stokking-dFcHL1ds0eY-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/c7da302c8_Gemini_Generated_Image_k0lmjdk0lmjdk0lm.png",
   quote: 'Tracking my symptoms next to my shots showed me patterns I never noticed. I feel so much more prepared.'
 },
 {
   name: 'Elena',
   role: 'Saxenda user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/322658639_connor-wilkins-u68jZr7ky0I-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/d543eeb31_Gemini_Generated_Image_j2b14rj2b14rj2b1.png",
   quote: 'It is the first tool that feels built for me — calm, private, and genuinely helpful every single day.'
 }];
 
@@ -70,12 +70,12 @@ export default function Testimonials() {
     if (row && item) {
       row.scrollLeft = item.offsetLeft - row.clientWidth / 2 + item.offsetWidth / 2;
     }
-    window.setTimeout(() => { suppressScroll.current = false; }, 350);
+    window.setTimeout(() => {suppressScroll.current = false;}, 350);
   };
-  const select = (i) => { setActive(i); centerItem(i); };
+  const select = (i) => {setActive(i);centerItem(i);};
   const next = () => select((active + 1) % people.length);
 
-  useEffect(() => { centerItem(active); }, []);
+  useEffect(() => {centerItem(active);}, []);
 
   const handleScroll = (e) => {
     if (suppressScroll.current) return;
@@ -87,9 +87,9 @@ export default function Testimonials() {
       if (!r) return;
       const mid = r.offsetLeft + r.offsetWidth / 2;
       const d = Math.abs(mid - center);
-      if (d < min) { min = d; nearest = i; }
+      if (d < min) {min = d;nearest = i;}
     });
-    setActive((prev) => (prev === nearest ? prev : nearest));
+    setActive((prev) => prev === nearest ? prev : nearest);
   };
 
   return (
@@ -123,7 +123,7 @@ export default function Testimonials() {
             return (
               <button
                 key={p.name}
-                ref={(el) => (itemRefs.current[i] = el)}
+                ref={(el) => itemRefs.current[i] = el}
                 onClick={() => select(i)}
                 aria-label={`Show review from ${p.name}`}
                 className={`relative flex-none snap-center rounded-2xl focus-visible:outline-none ${isActive ? 'z-20' : ''} ${arc[i].cls}`}>

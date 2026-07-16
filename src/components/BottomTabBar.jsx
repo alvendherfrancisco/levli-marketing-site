@@ -19,7 +19,7 @@ export default function BottomTabBar({ active }) {
             <div key={it.label} className="flex flex-col items-center gap-0.5 w-12">
               <div className={`w-7 h-7 rounded-full flex items-center justify-center ${on ? 'bg-[#DBEAFE]' : ''}`}>
                 <it.icon
-                  className={`w-[18px] h-[18px] ${on ? 'text-[#2563EB]' : 'text-[#9CA3AF]'}`}
+                  className={`w-5 h-5 ${on ? 'text-[#2563EB]' : 'text-[#9CA3AF]'}`}
                   strokeWidth={1.8}
                 />
               </div>

@@ -9,7 +9,7 @@ const levels = ['7 Days', '30 Days', '90 Days'];
 export default function InsightsScreen() {
   return (
     <>
-      <div className="relative flex-1 flex flex-col gap-3 px-4 pt-2 overflow-hidden max-md:overflow-y-auto lg:overflow-y-auto no-scrollbar">
+      <div className="relative flex-1 min-h-0 flex flex-col gap-3 px-4 pt-2 overflow-hidden max-md:overflow-y-auto lg:overflow-y-auto no-scrollbar">
         <div className="flex flex-col gap-3 max-md:scale-[1.30] max-md:origin-top max-md:w-[76.92%] max-md:mx-auto lg:scale-[1.30] lg:origin-top lg:w-[76.92%] lg:mx-auto shrink-0">
         <div className="flex items-center justify-between">
           <p className="text-lg font-bold text-[#111827]">Insights</p>

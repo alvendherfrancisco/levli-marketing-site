@@ -195,7 +195,7 @@ export default function AppCarousel() {
                       initial={{ opacity: 0, y: 12 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-                      className="h-full flex flex-col">
+                      className="h-full min-h-0 flex flex-col">
 
                       {active.screen}
                     </motion.div>

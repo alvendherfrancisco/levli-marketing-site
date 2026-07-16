@@ -31,7 +31,7 @@ const people = [
 {
   name: 'Elena',
   role: 'Saxenda user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/1ac2dffd5_2_gemini.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/ce4f67a98_3_gemini.png",
   quote: 'It is the first tool that feels built for me — calm, private, and genuinely helpful every single day.'
 }];
 

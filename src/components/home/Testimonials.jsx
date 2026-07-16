@@ -19,7 +19,7 @@ const people = [
 {
   name: 'Priya',
   role: 'Ozempic user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/a19bfd159_1_gemini.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/f91e2bc29_Gemini_Generated_Image_v7g3bzv7g3bzv7g3.png",
   quote: 'Walking into my appointment with a clear report changed the conversation. I feel in control of my journey.'
 },
 {

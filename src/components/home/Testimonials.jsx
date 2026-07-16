@@ -6,7 +6,7 @@ const people = [
 {
   name: 'Sarah',
   role: 'Wegovy user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/8ec9ec017_dev-benjamin-EONtzHMsJDU-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
   quote: 'Levli helped me see the whole picture — my shots, how I feel, and my progress. The journey finally feels manageable.'
 },
 {
@@ -19,7 +19,7 @@ const people = [
 {
   name: 'Priya',
   role: 'Ozempic user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/c7da302c8_Gemini_Generated_Image_k0lmjdk0lmjdk0lm.png",
   quote: 'Walking into my appointment with a clear report changed the conversation. I feel in control of my journey.'
 },
 {
@@ -31,7 +31,7 @@ const people = [
 {
   name: 'Elena',
   role: 'Saxenda user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/322658639_connor-wilkins-u68jZr7ky0I-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/1ac2dffd5_2_gemini.png",
   quote: 'It is the first tool that feels built for me — calm, private, and genuinely helpful every single day.'
 }];
 

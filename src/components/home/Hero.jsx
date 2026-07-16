@@ -56,7 +56,7 @@ export default function Hero() {
             Download App
           </Link>
           <Link
-            to="/#shots"
+            to="/#how"
             className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-[#14151A]/15 px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-medium text-[#14151A] hover:text-[#2FB8A6] transition-colors">
             See how it works
           </Link>

@@ -6,32 +6,32 @@ const people = [
 {
   name: 'Sarah',
   role: 'Wegovy user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
+  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/8ec9ec017_dev-benjamin-EONtzHMsJDU-unsplash.jpg",
   quote: 'Levli helped me see the whole picture — my shots, how I feel, and my progress. The journey finally feels manageable.'
 },
 {
-  name: "Nadia",
+  name: 'Marcus',
   role: 'Mounjaro user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/a93f067fe_Gemini_Generated_Image_sb17qlsb17qlsb17.png",
+  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/103fb0344_maria-remez-k1-aCVxTZto-unsplash.jpg",
   contain: true,
   quote: 'I stopped obsessing over the scale. Levli helps me understand what is happening and feel calmer about it.'
 },
 {
   name: 'Priya',
   role: 'Ozempic user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/89c6f9856_Gemini_Generated_Image_npz4dfnpz4dfnpz4.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
   quote: 'Walking into my appointment with a clear report changed the conversation. I feel in control of my journey.'
 },
 {
-  name: 'Aisha',
+  name: 'Daniel',
   role: 'Zepbound user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/c7da302c8_Gemini_Generated_Image_k0lmjdk0lmjdk0lm.png",
+  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/eb51547fd_ilse-stokking-dFcHL1ds0eY-unsplash.jpg",
   quote: 'Tracking my symptoms next to my shots showed me patterns I never noticed. I feel so much more prepared.'
 },
 {
   name: 'Elena',
   role: 'Saxenda user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/d543eeb31_Gemini_Generated_Image_j2b14rj2b14rj2b1.png",
+  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/322658639_connor-wilkins-u68jZr7ky0I-unsplash.jpg",
   quote: 'It is the first tool that feels built for me — calm, private, and genuinely helpful every single day.'
 }];
 

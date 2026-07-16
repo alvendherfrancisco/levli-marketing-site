@@ -145,7 +145,7 @@ export default function FinalCta() {
                 <ArrowRight className="hidden sm:block w-4 h-4" />
               </a>
               <a
-                href="#shots"
+                href="#how"
                 className="inline-flex items-center justify-center whitespace-nowrap rounded-full border border-[#14151A]/20 bg-white/40 px-5 sm:px-7 py-3 sm:py-3.5 text-sm sm:text-base font-semibold text-[#14151A] hover:bg-white/70 transition-colors">
                 See how it works
               </a>

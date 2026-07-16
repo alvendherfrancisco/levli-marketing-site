@@ -12,7 +12,7 @@ const people = [
 {
   name: 'Marcus',
   role: 'Mounjaro user',
-  avatar: "https://media.base44.com/images/public/6a54e2b39f4414228ed855fb/103fb0344_maria-remez-k1-aCVxTZto-unsplash.jpg",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/9f7a1b037_Gemini_Generated_Image_68e93768e93768e9.png",
   contain: true,
   quote: 'I stopped obsessing over the scale. Levli helps me understand what is happening and feel calmer about it.'
 },

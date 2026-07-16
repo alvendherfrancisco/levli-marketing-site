@@ -12,20 +12,20 @@ const people = [
 {
   name: 'Marcus',
   role: 'Mounjaro user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/9f7a1b037_Gemini_Generated_Image_68e93768e93768e9.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/a93f067fe_Gemini_Generated_Image_sb17qlsb17qlsb17.png",
   contain: true,
   quote: 'I stopped obsessing over the scale. Levli helps me understand what is happening and feel calmer about it.'
 },
 {
   name: 'Priya',
   role: 'Ozempic user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/9f7a1b037_Gemini_Generated_Image_68e93768e93768e9.png",
   quote: 'Walking into my appointment with a clear report changed the conversation. I feel in control of my journey.'
 },
 {
   name: 'Daniel',
   role: 'Zepbound user',
-  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/a93f067fe_Gemini_Generated_Image_sb17qlsb17qlsb17.png",
+  avatar: "https://media.base44.com/images/public/6a58db45b04e79060109b350/5d264f08a_Gemini_Generated_Image_nr7ejnnr7ejnnr7e.png",
   quote: 'Tracking my symptoms next to my shots showed me patterns I never noticed. I feel so much more prepared.'
 },
 {

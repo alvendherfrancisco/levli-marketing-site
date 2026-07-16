@@ -7,8 +7,7 @@ const links = [
 { label: 'Home', to: '/' },
 { label: 'How it works', to: '/#how' },
 { label: 'Features', to: '/#shots' },
-{ label: 'FAQ', to: '/#faq' },
-{ label: 'Privacy', to: '/privacy' }];
+{ label: 'FAQ', to: '/#faq' }];
 
 
 export default function LevliNav() {

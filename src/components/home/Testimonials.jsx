@@ -57,7 +57,6 @@ const fade = {
 
 export default function Testimonials() {
   const [active, setActive] = useState(2);
-  const [isMobile, setIsMobile] = useState(() => typeof window !== 'undefined' && window.matchMedia('(max-width: 639px)').matches);
   const itemRefs = useRef([]);
   const person = people[active];
   const accent = accents[active];
@@ -73,17 +72,10 @@ export default function Testimonials() {
     }
     window.setTimeout(() => {suppressScroll.current = false;}, 350);
   };
-  const select = (i) => {setActive(i); if (!isMobile) centerItem(i);};
+  const select = (i) => {setActive(i);centerItem(i);};
   const next = () => select((active + 1) % people.length);
 
-  useEffect(() => {
-    const mql = window.matchMedia('(max-width: 639px)');
-    const onChange = () => setIsMobile(mql.matches);
-    mql.addEventListener('change', onChange);
-    return () => mql.removeEventListener('change', onChange);
-  }, []);
-
-  useEffect(() => { if (!isMobile) centerItem(active); }, []);
+  useEffect(() => {centerItem(active);}, []);
 
   const handleScroll = (e) => {
     if (suppressScroll.current) return;
@@ -125,7 +117,7 @@ export default function Testimonials() {
         <div
           ref={rowRef}
           onScroll={handleScroll}
-          className="relative mt-14 flex items-end justify-start gap-2 sm:gap-4 md:gap-6 overflow-x-auto no-scrollbar snap-x snap-mandatory px-2 sm:px-8 py-6 lg:py-14">
+          className="relative mt-14 flex items-end justify-start gap-3 sm:gap-4 md:gap-6 overflow-x-auto no-scrollbar snap-x snap-mandatory px-8 py-6 lg:py-14">
           {people.map((p, i) => {
             const isActive = i === active;
             return (
@@ -134,12 +126,12 @@ export default function Testimonials() {
                 ref={(el) => itemRefs.current[i] = el}
                 onClick={() => select(i)}
                 aria-label={`Show review from ${p.name}`}
-                className={`relative flex-none snap-start sm:snap-center rounded-2xl focus-visible:outline-none ${isActive ? 'z-20' : ''} ${arc[i].cls}`}>
+                className={`relative flex-none snap-center rounded-2xl focus-visible:outline-none ${isActive ? 'z-20' : ''} ${arc[i].cls}`}>
                 <motion.div
-                  animate={{ scale: isActive ? (isMobile ? 1 : 1.1) : (isMobile ? 1 : 0.88) }}
+                  animate={{ scale: isActive ? 1.1 : 0.88 }}
                   transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                   style={{ boxShadow: isActive ? `0 0 0 4px ${accents[i]}` : '0 0 0 1px rgba(0,0,0,0.06)' }}
-                  className={`relative w-[26vw] h-[26vw] sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-44 lg:h-44 rounded-2xl overflow-hidden bg-[#F4F4F5]`}>
+                  className={`relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-44 lg:h-44 rounded-2xl overflow-hidden bg-[#F4F4F5]`}>
                   <img
                     src={p.avatar}
                     alt={`${p.name}, ${p.role}`}

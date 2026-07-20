@@ -64,7 +64,7 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative mx-auto max-w-5xl px-6 pt-10 sm:pt-16 sm:pb-12 pb-8">
-        <div className="relative mx-auto max-sm:overflow-hidden max-sm:[touch-action:pan-y] w-[20rem] h-[21.25rem] sm:w-[35rem] sm:h-[37.1875rem] md:w-[41.25rem] md:h-[43.75rem] lg:w-[38.5rem] lg:h-[33.25rem]">
+        <div className="relative mx-auto w-[20rem] h-[21.25rem] sm:w-[35rem] sm:h-[37.1875rem] md:w-[41.25rem] md:h-[43.75rem] lg:w-[38.5rem] lg:h-[33.25rem]">
           <div className="absolute top-0 left-0 w-[41.25rem] h-[43.75rem] lg:h-[47.5rem] origin-top-left scale-[0.485] sm:scale-[0.848] md:scale-100 lg:scale-[0.7] lg:w-[55rem]">
             <motion.div
               {...fadeUp}

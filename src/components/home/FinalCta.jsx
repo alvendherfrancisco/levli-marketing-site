@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Syringe, Smile, TrendingDown, FileText, ArrowRight, Apple, Salad, Droplet, Carrot, Egg, Cookie } from 'lucide-react';
+import MobileCtaCluster from './MobileCtaCluster';
 
 const fade = {
   initial: { opacity: 0, y: 24 },
@@ -152,8 +153,13 @@ export default function FinalCta() {
             </div>
           </div>
 
-          {/* Right: floating app-themed cards */}
-          <div className="relative mt-10 lg:mt-0">
+          {/* Right: floating app-themed cards (mobile cluster) */}
+          <div className="relative mt-8 md:hidden">
+            <MobileCtaCluster />
+          </div>
+
+          {/* Right: floating app-themed cards (tablet / desktop) */}
+          <div className="relative mt-10 lg:mt-0 hidden md:block">
             <div className="relative mx-auto w-[15.8125rem] h-[12.375rem] sm:w-[31.625rem] sm:h-[24.75rem] lg:w-[28.75rem] lg:h-[22.5rem]">
               <div className="absolute top-0 left-0 w-[28.75rem] h-[22.5rem] origin-top-left scale-[0.55] sm:scale-110 lg:scale-100">
                 {/* Next shot — teal */}

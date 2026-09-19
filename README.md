@@ -2,7 +2,7 @@
 
 Use this repository to run and edit the app locally, then publish changes back through Base44.
 
-Any change pushed to the repo will also be reflected in the Base44 Builder.
+Any change pushed to the repo will also be reflected in the Base44 Builder. 
 
 ## Prerequisites
 
@@ -75,3 +75,5 @@ Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.
 Base44 CLI command reference: [https://docs.base44.com/developers/references/cli/commands/introduction](https://docs.base44.com/developers/references/cli/commands/introduction)
 
 Support: [https://app.base44.com/support](https://app.base44.com/support)
+
+^~^
